@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+
+int main() {
+int numero1, numero2, numero3, media;
+  printf("digite um numero:");
+  scanf("%d", &numero1);
+  printf("digite um numero:");
+  scanf("%d", &numero2);
+  printf("digite um numero:");
+  scanf("%d", &numero3);
+  media = numero1 + numero2 + numero3 / 3;
+if(media< numero1){
+  printf("o valor da media é menor que %.2d e o valor da media é %.2d", numero1, media);
+}else if(media < numero2){
+  printf("o valor da media é menor que %.2d, e o valor da media é %.2d", numero2, media);
+}else if(media < numero3){
+  printf("o valor da media é menor que %.2d, e o valor da media é %.2d", numero3, media);
+}else{
+  printf("a sua media é: %.2d", media);
+}
+  
+  
+  
+  return 0;
+};
