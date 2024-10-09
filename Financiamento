@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+
+int main() {
+float salario, financiamento;
+  printf("Por favor, digite seu sálario:");
+  scanf("%f", &salario);
+  printf("qual seria seu financiamento dos sonhos? Podemos lhe ajudar!");
+  scanf("%f", &financiamento);
+  if(financiamento <= (salario * 5)){
+    printf("Meus Parábens, comece a jornada do seu financiamento dos sonhos!\n");
+  }else{
+    printf("Infelizmente não foi dessa vez, mas tente na proxima :(\n");
+  }
+   printf("Obrigada por nos consultar");
+  
+  
+  
+  return 0;
+};
